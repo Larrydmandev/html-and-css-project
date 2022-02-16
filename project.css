@@ -1,0 +1,542 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif
+}
+
+.overall-div .wrap-text h3
+{
+    font-weight: 900;
+}
+
+.section-main{
+    background-color: rgba(98,34,204,255) !important;
+    height: 100vh;
+}
+
+
+
+.main .ul-items li a{
+    text-decoration: none;
+}
+
+.main .ul-items li{
+    list-style: none;
+    padding: 10px;
+}
+.main .ul-items {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
+.main .ul-items li a{
+    color: #fff;
+}
+
+.main .ul-items li a:hover
+{
+    color: yellow;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+.main .ul-items .heading-one{
+    position: absolute;
+    right: 90%;
+    font-weight: 900;
+}
+
+.main .ul-items .heading-one h1
+{
+    color: #fff;
+}
+
+.main .ul-items .button-one
+{
+  position: absolute;
+  left: 90%;
+  top: 30%;
+}
+
+.section-main .main hr{
+   background-color: #fff;
+}
+
+.main .ul-items .button-color{
+  background-color: #fff;
+}
+
+.overall-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+
+}
+
+
+.overall-div .wrap-text{
+    max-width: 600px;
+    color: #fff;
+}
+
+
+.overall-div .wrap-text .button-three{
+    background-color: #fff;
+}
+
+
+.overall-div .img img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 20%;
+    /* bottom: 30%; */
+    border-radius: 50%;
+}
+
+.marketing-section{
+    position: relative;
+    padding-top: 100px;
+
+}
+
+.marketing-section .marketing-main
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+} 
+
+
+
+.marketing-section .marketing-main .marketing-box{
+    transition: all .5s ease-in;
+}
+
+.marketing-section .marketing-main .marketing-box:hover{
+    transform: translateY(-50px);
+}
+
+.marketing-section .marketing-main .marketing-box
+{   
+    width: 400px;
+    background-color:rgba(247,245,249,255);
+    padding: 30px;
+    border-radius: 10%;
+}
+
+.marketing-section .marketing-main .marketing-box h3
+{
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+}
+.marketing-section .marketing-main .marketing-box p
+{
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   text-align: center;
+}
+
+.overall-div1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 190%;
+    left: 10%;
+}
+
+.overall-div1 .img1 img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 10%;
+    bottom: 30%; 
+    border-radius: 50%;
+}
+
+
+ .overall-div1 .wrap-text
+{
+   width: 700px;
+} 
+
+.members-section .member-main
+{
+    background-color: rgba(98,34,204,255);
+    height: 50vh;
+    position: relative;
+    top: 700px;
+
+}
+ .member-main{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.achieve h3
+{
+    text-align: center;
+    padding: 13px;
+    color: white;
+}
+
+.achieve p
+{
+    text-align: center;
+    color: white;
+}
+
+.services-sect
+{
+    position: relative;
+    top:900px;
+}
+
+.services-sect .services-h2
+{
+   text-align: center;
+   position: relative;
+   bottom: 20% ;
+   /* left: 35%; */
+   font-weight: bolder;
+}
+
+.services-sect .services-div1
+{
+    flex-direction: row;
+    display: flex;
+    
+}
+
+/* first div start */
+
+.services-div1
+{
+    display: flex;
+   justify-content: center;
+   padding: 10px;
+   text-align: center;
+}
+
+.services-div1 .services-p
+{
+  width: 90%;
+  text-align: center;
+}
+.services-div1 .services-h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.services-div1 .services-p{
+    width: 60%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center ;
+    font-size: 12px;
+    position: relative;
+    left: 20%;
+    text-align: center;
+
+}
+
+/* first div end  */
+
+
+/* second div start */
+
+.services-div2
+{
+    display: flex;
+   justify-content: center;
+   padding: 10px; 
+   text-align: center;   
+}
+
+
+.services-div2 .services-h4{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.services-div2 .services-p{
+    width: 60%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 12px;
+    /* font-weight: 700; */
+    position: relative;
+    left: 20%;
+    text-align: center;
+}
+
+/* second div end */
+
+.services-div1 .services
+{
+    background-color: rgba(247,245,249,255);
+    /* height: 50%; */
+    padding: 5%;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.services-div2 .services
+{
+    background-color: rgba(247,245,249,255);
+    /* height: 50%; */
+    padding: 5%;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.news-sec
+{
+    background-color: rgba(98,34,204,255);
+    height: 50vh;
+    position: absolute;
+    width: 100%;
+    top: 470%; 
+}
+
+.news-sec .news-h3
+{
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+.news-sec .news-p
+{
+    color: white;
+    text-align: center;
+    padding: 0.5% 20%;
+}
+.news-div2
+{
+    position: relative;
+}
+.news-div2 i
+{
+    position: absolute;
+    top: 25%;
+    left: 72%;
+    font-size: 20px;
+    color: rgba(98,34,204,255);
+
+}
+
+.news-sec .news-email
+{
+    position: relative;
+    left: 25%;
+    border-radius: 10%;
+}
+
+.news-button
+{
+    position: relative;
+    left: 41%;
+    width: 20%;
+}
+
+.completed-sect
+{
+    position: absolute; 
+    top: 600%;
+    left: 5%;
+} 
+
+.completed-h2
+{
+    position: absolute;
+    left: 30%;
+    bottom:110%;
+}
+
+/* first div start */
+
+.completed-div1 
+{
+    display: flex;
+}
+
+.completed-div1 .completed
+{
+    background-color:  rgba(247,245,249,255);
+    padding: 5%;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.completed-div1 .completed .completed-h6
+{
+    text-align: center;
+}
+.completed-div1 .completed .completed-p
+{
+    text-align: center;
+}
+
+/* first div end */
+
+
+
+/* second div start */
+
+.completed-div2 
+{
+    display: flex;
+}
+
+.completed-div2 .completed
+{
+    background-color:  rgba(247,245,249,255);
+    padding: 5%;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.completed-div2 .completed .completed-h6
+{
+    text-align: center;
+}
+.completed-div2 .completed .completed-p
+{
+    text-align: center;
+}
+
+/* second div end */
+
+.completed-h6-2
+{
+    color: purple;    
+}
+
+.completed-img
+{
+    width: 100%;
+}
+
+
+
+.footer-sec{
+    position: relative;
+    top: 2600px; background-color: rgba(98,34,204,255);
+    /* padding: 50px; */
+}
+
+.overall-footer-div
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 70px;
+ 
+}
+
+
+.footer-h5
+{
+    align-items: center;
+    color: white;
+}
+
+.footer-div
+{
+    width: 80%;
+}
+
+.div-img1
+{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+
+}
+.div-img2
+{
+    display: flex;
+    padding-top: 10px;
+}
+
+.container-33percent
+{
+  width: 32%;
+}
+.middle-container
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.overall-div-img img
+{
+    width: 100%;
+}
+
+.overall-footer-div p
+{
+   align-items: center;
+    color: white;
+}
+
+.overall-footer-div li a
+{
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease-in;
+}
+
+
+.overall-footer-div li a
+:link,
+:visited
+{
+    color: #fff;
+}
+
+.overall-footer-div li a:hover
+{
+    padding-left: 10px;
+}
+
+.email-div
+{
+    position: relative;
+}
+
+
+.email-div i
+{
+   position: absolute;
+   top: 25%;
+   left: 42%;
+   font-size: 20px;
+   color: rgba(98,34,204,255);
+}
+
+.email-div input[type="placeholder"]
+{
+    font-size: 5px;
+}
+
+.footer-div100 
+{
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+}
